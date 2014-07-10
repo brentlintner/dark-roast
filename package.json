@@ -1,0 +1,40 @@
+{
+  "name": "dark-roast",
+  "version": "0.0.1",
+  "description": "Compile CoffeeScript from non-standard file extensions.",
+  "main": "index.js",
+  "bin": {
+    "dark-roast": "bin/cli"
+  },
+  "scripts": {
+    "postinstall": "coffee -c lib",
+    "test": "bin/test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brentlintner/dark-roast.git"
+  },
+  "keywords": [
+    "coffee-script",
+    "file",
+    "file extension"
+  ],
+  "author": "Brent Lintner <brent.lintner@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brentlintner/dark-roast/issues"
+  },
+  "homepage": "https://github.com/brentlintner/dark-roast",
+  "dependencies": {
+    "async": "^0.9.0",
+    "coffee-script": "^1.7.1",
+    "commander": "^2.2.0",
+    "minilog": "^2.0.5",
+    "underscore": "^1.6.0",
+    "wrench": "^1.5.8"
+  },
+  "devDependencies": {
+    "mocha": "^1.20.1",
+    "nodemon": "^1.2.1"
+  }
+}
