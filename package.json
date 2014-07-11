@@ -7,8 +7,7 @@
     "dark-roast": "bin/cli"
   },
   "scripts": {
-    "postinstall": "coffee -c lib",
-    "test": "bin/test"
+    "prepublish": "coffee -c lib"
   },
   "repository": {
     "type": "git",
@@ -27,14 +26,12 @@
   "homepage": "https://github.com/brentlintner/dark-roast",
   "dependencies": {
     "async": "^0.9.0",
-    "coffee-script": "^1.7.1",
     "commander": "^2.2.0",
     "minilog": "^2.0.5",
     "underscore": "^1.6.0",
     "wrench": "^1.5.8"
   },
   "devDependencies": {
-    "mocha": "^1.20.1",
-    "nodemon": "^1.2.1"
+    "coffee-script": "^1.7.1"
   }
 }
