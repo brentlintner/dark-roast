@@ -1,6 +1,6 @@
 {
   "name": "dark-roast",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Compile CoffeeScript from non-standard file extensions.",
   "main": "index.js",
   "bin": {
