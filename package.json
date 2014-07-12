@@ -6,9 +6,6 @@
   "bin": {
     "dark-roast": "bin/cli"
   },
-  "scripts": {
-    "prepublish": "coffee -c lib"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/brentlintner/dark-roast.git"
