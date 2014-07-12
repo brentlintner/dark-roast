@@ -6,7 +6,6 @@ fs = require 'fs'
 child_process = require 'child_process'
 _ = require 'underscore'
 logger = require './logger'
-coffeescript = path.join __dirname, '..', 'node_modules', '.bin', 'coffee'
 log = logger.create 'dark-roast'
 file_ext = /\..*$/
 
@@ -31,7 +30,7 @@ compile_cs = (cs_path, cs_opts, files) ->
   _.each files, (file) ->
     log.info "compiling #{cs_path}/#{file}"
 
-  child_process.exec "#{coffeescript} #{cs_opts} #{cs_path}",
+  child_process.exec "coffee #{cs_opts} #{cs_path}",
     handle_err (stdout, stderr) ->
       process.stdout.write stdout
       process.stderr.write stderr
