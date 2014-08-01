@@ -38,6 +38,10 @@ Talk about value!
 So! If you feel the need to do the same at times, perhaps
 this darker roast is more to your fitting.
 
+## Versioning
+
+This project ascribes to [semantic versioning](http://semver.org).
+
 ### TODO
 
 * write tests
