@@ -1,7 +1,7 @@
 dark-roast
 ==========
 
-![](https://david-dm.org/brentlintner/dark-roast.png)
+[![Dependency Status](https://david-dm.org/brentlintner/dark-roast.svg)](https://david-dm.org/brentlintner/dark-roast)
 
 Compile CoffeeScript from non-standard file extensions.
 
