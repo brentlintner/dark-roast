@@ -1,6 +1,8 @@
 dark-roast
 ==========
 
+[![NPM version](https://badge.fury.io/js/dark-roast.svg)](http://badge.fury.io/js/dark-roast)
+
 [![Dependency Status](https://david-dm.org/brentlintner/dark-roast.svg)](https://david-dm.org/brentlintner/dark-roast)
 
 Compile CoffeeScript from non-standard file extensions.
