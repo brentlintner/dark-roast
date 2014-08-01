@@ -1,6 +1,8 @@
 dark-roast
 ==========
 
+![](https://david-dm.org/brentlintner/dark-roast.png)
+
 Compile CoffeeScript from non-standard file extensions.
 
 ### Usage
